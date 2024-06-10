@@ -12,7 +12,8 @@ require("lazy").setup({
     {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.1',
-        dependencies = {'nvim-lua/plenary.nvim'}
+        dependencies = {'nvim-lua/plenary.nvim'},
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
     }, {'cooperuser/glowbeam.nvim'}, {'joshdick/onedark.vim'},
     {'rebelot/kanagawa.nvim'},
     {'nvim-treesitter/nvim-treesitter'}, {'neovim/nvim-lspconfig'},
